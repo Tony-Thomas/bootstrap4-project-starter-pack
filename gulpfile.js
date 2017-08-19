@@ -1,10 +1,11 @@
+// https://www.npmjs.com/package/gulp-sass
+
 const gulp = require('gulp');
 const browserSync = require('browser-sync').create();
 const sass = require('gulp-sass');
 
 
 // Compile SASS
-// https://www.npmjs.com/package/gulp-sass
 gulp.task('sass', function(){
     return gulp.src(['node_modules/bootstrap/scss/bootstrap.scss', 'src/scss/*.scss'])
         .pipe(sass())
