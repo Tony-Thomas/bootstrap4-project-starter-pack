@@ -1,0 +1,28 @@
+{
+  "name": "bootstrap4-project-starter-pack",
+  "version": "1.0.0",
+  "description": "Bootstrap 4 workflow project starter",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tony-Thomas/bootstrap4-project-starter-pack.git"
+  },
+  "author": "Tony Thomas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tony-Thomas/bootstrap4-project-starter-pack/issues"
+  },
+  "homepage": "https://github.com/Tony-Thomas/bootstrap4-project-starter-pack#readme",
+  "dependencies": {
+    "bootstrap": "4.0.0-alpha.6",
+    "font-awesome": "^4.7.0"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0"
+  }
+}
